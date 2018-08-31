@@ -1,0 +1,141 @@
+
+#map {
+    background-color: #ffffff;
+    max-width:100%;
+}
+th {
+    text-align: left;
+    vertical-align: top;
+}
+
+.btn-default{
+    border: 2px solid #FFFFFF !important;
+    background: transparent !important;
+    color: #FFFFFF !important;
+    padding: 5px;
+    margin-top:10px;
+    font: 14px;
+}
+
+#btn-year > label.btn.btn-default.active{
+    color:#000000 !important;
+    background: #FFFFFF !important;
+}
+
+.info {
+    padding-top:15px;
+    padding-bottom: 10px; 
+    padding-left: 20px;
+    padding-right:20px;
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.3);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-family: Arial,sans-serif;
+    max-width:80%;
+
+}
+.info h2 {
+    margin: 0 0px 5px;
+    color: #FFFFFF;
+    font-family: Arial,sans-serif;
+
+}
+
+.legend {
+    padding: 3px;
+    background: rgba(255,255,255,0.5);
+    color: #000000;
+    padding: 10px;
+    max-width: 200px;
+    font-family: Arial,sans-serif;
+
+}
+
+.legend h5 {
+    text-align: center;
+    font-family: Arial,sans-serif;
+
+}
+.leaflet-container {
+    background: #fff;
+    padding-right: 10px;
+}
+.leaflet-popup-content {
+    width:auto !important;
+    padding-right:10px;
+}
+.leaflet-tooltip {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+.leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
+    border: 0px;
+}
+
+.method {
+    max-width: 60%;
+    font-size: 9px !important;
+    text-align:left;
+}
+
+.method a {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn{
+        padding: 5px 8px !important;
+        margin-top:5px;
+        font-size: 10px !important;
+    }
+
+    .info {
+        padding-top:5px;
+        padding-bottom: 10px; 
+        padding-left: 10px;
+        padding-right:10px;
+        color: #FFFFFF;
+        background: rgba(0,0,0,0.3);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        max-width: 300px;
+        font-family: Arial,sans-serif;
+    }
+
+    .info h2 {
+        margin: 0 0px 5px;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+
+    .legend {
+        padding: 3px;
+        background: rgba(255,255,255,0.3);
+        color: #000000;
+        padding: 10px;   
+        max-width:150px; 
+    }
+
+    .leaflet-bottom .leaflet-control-scale {
+        margin-bottom: 10%;
+    }
+
+    .leaflet-popup-tip {
+        width: 17px;
+        height: 17px;
+        padding: 1px;
+    
+        margin: -10px auto 0;
+    
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+        }
+    .method {
+        max-width:150px;
+    }
+}
